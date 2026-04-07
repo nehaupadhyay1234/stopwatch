@@ -1,0 +1,38 @@
+body {
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.stopwatch-container {
+    text-align:center;
+     background-color:#fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 250px;
+}
+#time-display {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+#lap-times {
+    margin-top: 20px;
+    text-align: left;
+}
+#lap-list {
+    list-style-type: none;
+    padding: 0;
+}
+#lap-list li {
+    font-size: 1.2em;
+}
